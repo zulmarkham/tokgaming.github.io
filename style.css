@@ -1,0 +1,271 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.navbar {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.judul a {
+  font-size: 36px;
+  font-weight: bold;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(31, 184, 255);
+  text-decoration: underline;
+}
+
+.hero {
+  margin: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-text {
+  margin-left: 30px;
+}
+
+.hero-text h2 {
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  width: 430px;
+}
+
+.hero-img img {
+  width: 700px;
+  height: auto;
+}
+.pro {
+  margin: 100px auto;
+  width: 900px;
+}
+
+.pro-items {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pro-item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pro-item img {
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.pro-item p {
+  width: 300px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pro h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.divisi {
+  /* width: 100%; */
+  background-color: rgb(233, 233, 233);
+  margin: 100px auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.divisi-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divisi-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.divisi-item img {
+  width: 600px;
+  border-radius: 5%;
+  margin-bottom: 50px;
+}
+
+.divisi-item button {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: bisque;
+}
+
+.divisi-item button:hover {
+  background-color: aqua;
+  transform: scale(1.05);
+}
+
+.testimoni {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimoni-card {
+  display: flex;
+  align-items: center;
+}
+
+.testimoni-card img {
+  border-radius: 100%;
+  width: 400px;
+  margin: 50px 30px;
+}
+.testimoni-card p {
+  width: 500px;
+  font-size: 20px;
+}
+.testimoni-txt h4 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimoni button {
+  width: 200px;
+  height: 40px;
+  align-self: flex-end;
+  margin-top: 100px;
+  margin-right: 400px;
+  border-radius: 15px;
+}
+
+.testimoni button:hover {
+  background-color: aqua;
+}
+
+.harga {
+  margin: 100px 200px;
+  text-align: center;
+}
+.harga-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.harga-card {
+  border: 3px solid black;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0);
+  transition: 0.3s;
+}
+
+.harga-card:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+.harga-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.harga-card h4 {
+  color: rgb(49, 49, 49);
+}
+
+.daftar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daftar-card {
+  display: flex;
+  align-items: center;
+}
+
+.daftar-img img {
+  width: 500px;
+  margin: 0 30px;
+}
+
+.daftar-txt {
+  width: 500px;
+  height: 150px;
+  border-radius: 30px;
+  background-color: rgb(31, 184, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daftar-txt:hover {
+  background-color: bisque;
+}
